@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python SAM Local Debug",
+      "type": "python",
+      "request": "attach",
+      "connect": {
+        "host": "localhost",
+        "port": 5890
+      },
+      "pathMappings": [
+        {
+          "localRoot": "${workspaceFolder}",
+          "remoteRoot": "/var/task"
+        }
+      ],
+      "justMyCode": false,    // ✅ AWS Lambda 내부 코드 디버깅 허용
+      "redirectOutput": true  // ✅ 출력 내용이 VS Code 디버거에 보이도록 설정
+    }
+  ]
+}

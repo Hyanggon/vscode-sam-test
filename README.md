@@ -1,7 +1,7 @@
 # vscode-sam-test
 
 ## 목적
-로컬 vscode 환경에서 aws lambda를 이미지와 레이어를 기반으로 환경을 구성하고 테스트할 수 있도록 Hello world 템플릿 기반으로 세팅되어 있습니다.
+로컬 vscode 환경에서 aws lambda를 이미지와 레이어를 기반으로 환경을 구성하고 sam으로 테스트할 수 있도록 Hello world 템플릿 기반으로 세팅되어 있습니다.
 
 ## 디렉토리
 디렉토리 구조는 아래와 같습니다.
@@ -43,8 +43,8 @@
           "remoteRoot": "/var/task"
         }
       ],
-      "justMyCode": false,    // ✅ AWS Lambda 내부 코드 디버깅 허용
-      "redirectOutput": true  // ✅ 출력 내용이 VS Code 디버거에 보이도록 설정
+      "justMyCode": false,    
+      "redirectOutput": true  
     }
   ]
 }
